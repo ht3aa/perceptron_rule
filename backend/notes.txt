@@ -1,0 +1,5 @@
+to read csv file using tensorflow do the following:
+
+1- make async function.
+2- await tf.data.csv(`file://${__dirname}/filename.csv`).toArray()
+3- call the function.

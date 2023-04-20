@@ -1,0 +1,80 @@
+npm ERR! code 1
+npm ERR! path D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@tensorflow\tfjs-node
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c node scripts/install.js
+npm ERR! CPU-windows-4.4.0.zip
+npm ERR! https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-windows-x86_64-2.9.1.zip
+npm ERR! node-pre-gyp install failed with error: Error: Command failed: node-pre-gyp install --fallback-to-build
+npm ERR! node-pre-gyp info it worked if it ends with ok
+npm ERR! node-pre-gyp info using node-pre-gyp@1.0.9
+npm ERR! node-pre-gyp info using node@18.13.0 | win32 | x64
+npm ERR! node-pre-gyp info check checked for "D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@tensorflow\tfjs-node\lib\napi-v8\tfjs_binding.node" (not found)
+npm ERR! node-pre-gyp http GET https://storage.googleapis.com/tf-builds/pre-built-binary/napi-v8/4.4.0/CPU-windows-4.4.0.zip
+npm ERR! node-pre-gyp ERR! install response status 404 Not Found on https://storage.googleapis.com/tf-builds/pre-built-binary/napi-v8/4.4.0/CPU-windows-4.4.0.zip
+npm ERR! node-pre-gyp WARN Pre-built binaries not installable for @tensorflow/tfjs-node@4.4.0 and node@18.13.0 (node-v108 ABI, unknown) (falling back to source compile with node-gyp)
+npm ERR! node-pre-gyp WARN Hit error response status 404 Not Found on https://storage.googleapis.com/tf-builds/pre-built-binary/napi-v8/4.4.0/CPU-windows-4.4.0.zip
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.1.0
+npm ERR! gyp info using node@18.13.0 | win32 | x64
+npm ERR! gyp info ok
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.1.0
+npm ERR! gyp info using node@18.13.0 | win32 | x64
+npm ERR! gyp info find Python using Python version 3.11.2 found at "C:\Users\hp\AppData\Local\Programs\Python\Python311\python.exe"       
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! find VS msvs_version not set from command line or npm config
+npm ERR! gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm ERR! gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details
+npm ERR! gyp ERR! find VS looking for Visual Studio 2015
+npm ERR! gyp ERR! find VS - not found
+npm ERR! gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! find VS **************************************************************
+npm ERR! gyp ERR! find VS You need to install the latest version of Visual Studio
+npm ERR! gyp ERR! find VS including the "Desktop development with C++" workload.
+npm ERR! gyp ERR! find VS For more information consult the documentation at:
+npm ERR! gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm ERR! gyp ERR! find VS **************************************************************
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! configure error
+npm ERR! gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm ERR! gyp ERR! stack     at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:122:47)
+npm ERR! gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:75:16
+npm ERR! gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:364:14)
+npm ERR! gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:71:14
+npm ERR! gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:385:16
+npm ERR! gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\util.js:54:7
+npm ERR! gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\util.js:33:16
+npm ERR! gyp ERR! stack     at ChildProcess.exithandler (node:child_process:427:5)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:513:28)
+npm ERR! gyp ERR! stack     at maybeClose (node:internal/child_process:1091:16)
+npm ERR! gyp ERR! System Windows_NT 10.0.22000
+npm ERR! gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "configure" "--fallback-to-build" "--module=D:\\ht3aa_prj_work\\ML\\iris_data\\js\\node_modules\\@tensorflow\\tfjs-node\\lib\\napi-v8\\tfjs_binding.node" "--module_name=tfjs_binding" "--module_path=D:\\ht3aa_prj_work\\ML\\iris_data\\js\\node_modules\\@tensorflow\\tfjs-node\\lib\\napi-v8" "--napi_version=8" "--node_abi_napi=napi" "--napi_build_version=8" "--node_napi_label=napi-v8"
+npm ERR! gyp ERR! cwd D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@tensorflow\tfjs-node
+npm ERR! gyp ERR! node -v v18.13.0
+npm ERR! gyp ERR! node-gyp -v v9.1.0
+npm ERR! gyp ERR! not ok
+npm ERR! node-pre-gyp ERR! build error
+npm ERR! node-pre-gyp ERR! stack Error: Failed to execute 'C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js configure --fallback-to-build --module=D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@tensorflow\tfjs-node\lib\napi-v8\tfjs_binding.node --module_name=tfjs_binding --module_path=D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@tensorflow\tfjs-node\lib\napi-v8 --napi_version=8 --node_abi_napi=napi --napi_build_version=8 --node_napi_label=napi-v8' (1)
+npm ERR! node-pre-gyp ERR! stack     at ChildProcess.<anonymous> (D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@mapbox\node-pre-gyp\lib\util\compile.js:89:23)
+npm ERR! node-pre-gyp ERR! stack     at ChildProcess.emit (node:events:513:28)
+npm ERR! node-pre-gyp ERR! stack     at maybeClose (node:internal/child_process:1091:16)
+npm ERR! node-pre-gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:302:5)
+npm ERR! node-pre-gyp ERR! System Windows_NT 10.0.22000
+npm ERR! node-pre-gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "D:\\ht3aa_prj_work\\ML\\iris_data\\js\\node_modules\\@mapbox\\node-pre-gyp\\bin\\node-pre-gyp" "install" "--fallback-to-build"
+npm ERR! node-pre-gyp ERR! cwd D:\ht3aa_prj_work\ML\iris_data\js\node_modules\@tensorflow\tfjs-node
+npm ERR! node-pre-gyp ERR! node -v v18.13.0
+npm ERR! node-pre-gyp ERR! node-pre-gyp -v v1.0.9
+npm ERR! node-pre-gyp ERR! not ok
+npm ERR! * Downloading libtensorflow
+npm ERR!
+npm ERR! * Building TensorFlow Node.js bindings
+
+
+
+
+
+
+to solve this error do the following:
+1- Install visual studio (purple one)
+2- Install Desktop development with C++
